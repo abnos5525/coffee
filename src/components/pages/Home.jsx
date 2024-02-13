@@ -59,7 +59,7 @@ const Home = () =>{
         alignItems: 'center'
     }
 
-    const icon = {fontSize:60,color:"#fff",cursor:"pointer"}
+    const icon = {fontSize:40,color:"#fff",cursor:"pointer"}
 
     const [avatarLoaded, setAvatarLoaded] = useState(false);
 
@@ -130,8 +130,8 @@ const Home = () =>{
                                                         textAlign:"center",
                                                         mt:2,
                                                         fontSize:{
-                                                            xs:30,
-                                                            md:50
+                                                            xs:25,
+                                                            md:40
                                                         },
                                                     }}>
                                         </Typography>
@@ -140,8 +140,8 @@ const Home = () =>{
                                                 textAlign:"center",
                                                 mt:2,
                                                 fontSize:{
-                                                    xs:30,
-                                                    md:50
+                                                    xs:25,
+                                                    md:40
                                                 },
                                                 mx:2,
                                             }}>
@@ -154,8 +154,8 @@ const Home = () =>{
                                         textAlign:"center",
                                         mt:2,
                                         fontSize:{
-                                            xs:i18n.language === "en" ? 20 : 35,
-                                            md: i18n.language === "en" ? 25 : 45
+                                            xs:i18n.language === "en" ? 20 : 30,
+                                            md: i18n.language === "en" ? 25 : 35
                                         },
 
                                     }}>
