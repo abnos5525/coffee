@@ -130,7 +130,7 @@ const Home = () =>{
                                                         textAlign:"center",
                                                         mt:2,
                                                         fontSize:{
-                                                            xs:40,
+                                                            xs:30,
                                                             md:50
                                                         },
                                                     }}>
@@ -140,7 +140,7 @@ const Home = () =>{
                                                 textAlign:"center",
                                                 mt:2,
                                                 fontSize:{
-                                                    xs:40,
+                                                    xs:30,
                                                     md:50
                                                 },
                                                 mx:2,
