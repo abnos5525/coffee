@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir.woff2') format('woff2'),
+        url('../fonts/Vazir.woff') format('woff'),
+        url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body *{
+    font-family: "vazir", "roboto", tahoma !important;
+}
+
+body{
+    background-color: #8F4826;
+    margin: 20px;
+}
+
+
+@keyframes floating {
+    0% {
+        transform: translateY(-7px);
+    }
+    50% {
+        transform: translateY(7px);
+    }
+    100% {
+        transform: translateY(-7px);
+    }
+}
+
+.float-animation {
+    animation: floating 2s infinite ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2); /* تغییر اندازه آیکون هنگام هاور کردن */
+}
+
+
+
+

@@ -1,0 +1,34 @@
+{
+    "header": {
+      "home": "Home",
+      "products": "Products",
+      "aboutUs": "About us"
+    },
+  "order": "Order",
+
+  "home":{
+    "title": "Handcrafted Natural Ducino Cappuccino",
+    "family": "Enjoy the finest quality coffee with friends and family",
+    "family2": "Enjoying with family with Ducino",
+    "enjoy":"Enjoy",
+    "bottomIcons": {
+      "fresh": "Fresh",
+      "energy": "Energy",
+      "healthy": "Healthy",
+      "natural": "Natural"
+    }
+  },
+
+  "products": {
+    "title": "Various Coffee Flavors",
+    "espresso": "Espresso",
+    "cappuccino": "Cappuccino",
+    "latte": "Latte",
+    "americano": "Americano"
+  },
+
+  "aboutUs": {
+    "name": "Hossein Heidary",
+    "description": "At Ducino Coffee Company, we have a passion for various types of coffee, and we make every effort to provide the best consumption experience. From regular morning brews to intensely rich and aromatic espressos, each type of coffee has its own unique taste and flavor, which we deliver to you through advanced technology and high precision in the production process"
+  }
+}
