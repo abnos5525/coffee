@@ -50,7 +50,6 @@ const Home = () =>{
         width:80,
         height:80,
         borderRadius:50,
-        margin:"auto",
         textAlign:"center",
         mt:8,
         mx:2,
@@ -163,7 +162,7 @@ const Home = () =>{
                         </Typography>
                     </Grid>
                 </Slide>
-                    <Grid container sx={{mb:10}}>
+                    <Grid container spacing={1} sx={{mb:10}}>
                             <Grid item xs={3}>
                                 <Box sx={badge}>
                                     <ParkOutlined sx={icon} className="icon"/>
