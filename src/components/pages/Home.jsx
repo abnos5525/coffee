@@ -142,7 +142,7 @@ const Home = () =>{
                                                     xs:25,
                                                     md:40
                                                 },
-                                                mx:2,
+                                                mx:1,
                                             }}>
                                             {t("home.enjoy")}
                                         </Typography>
