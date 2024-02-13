@@ -68,7 +68,13 @@ const Home = () =>{
     }
 
     const imageStyle = {
-        width:400,
+        width:{
+            xl:400,
+            lg:400,
+            md:300,
+            sm:300,
+            xs:200
+        },
         margin: 'auto',
         display: 'block',
         textAlign:"center"
