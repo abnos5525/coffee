@@ -54,7 +54,7 @@ const Products = () =>{
     }
 
     return(
-        <>
+        <Box>
             <Typography variant="h4" sx={{textAlign:"center",my:3}}>
                 {t("products.title")}
             </Typography>
@@ -101,7 +101,7 @@ const Products = () =>{
                     </Typography>
                 </Box>
             </Slider>
-        </>
+        </Box>
     )
 }
 

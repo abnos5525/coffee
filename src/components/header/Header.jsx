@@ -72,7 +72,7 @@ const Header = () =>{
                             },
                             mx:1
                         }}>
-                            Ducino
+                            Abnos
                         </Typography>
                     </Grid>
             </Toolbar>
